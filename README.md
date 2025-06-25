@@ -1,4 +1,3 @@
-````markdown
 # 🌐 **GeperX - Elite Path Scanner**
 
 **GeperX** is a next-generation cybersecurity tool designed for lightning-fast and intelligent path enumeration. Built with precision, it empowers security researchers to uncover hidden endpoints with unmatched efficiency. Featuring smart proxy rotation, advanced content analysis, and seamless fallback modes, GeperX is your ultimate weapon for penetration testing and bug bounty hunting.
@@ -24,19 +23,16 @@
    ```bash
    git clone https://github.com/ishakdev325/geperx.git
    cd geperx
-````
+   ```
 
 2. **Install Dependencies**:
-
    ```bash
    pip install requests PySocks colorama
    ```
 
 3. **Prepare Files**:
-
-   * Create a `wordlist.txt` with paths to scan (e.g., `admin`, `login`, `api`).
-   * (Optional) Create a `proxies.txt` with proxies in the format:
-
+   - Create a `wordlist.txt` with paths to scan (e.g., `admin`, `login`, `api`).
+   - (Optional) Create a `proxies.txt` with proxies in the format:
      ```
      http://127.0.0.1:8080
      https://192.168.1.100:3128
@@ -69,13 +65,11 @@ python geperx.py -u <target_url> -w <wordlist_file> [options]
 ## 💡 **Example Commands**
 
 **Basic scan without proxies**:
-
 ```bash
 python geperx.py -u http://example.com -w wordlist.txt -t 20 -e 404,403 --time 0.2
 ```
 
 **Scan with proxies and fallback**:
-
 ```bash
 python geperx.py -u http://example.com -w wordlist.txt -p proxies.txt --time 0.1 --fallback
 ```
@@ -85,7 +79,6 @@ python geperx.py -u http://example.com -w wordlist.txt -p proxies.txt --time 0.1
 ## 📁 **File Formats**
 
 **wordlist.txt**:
-
 ```
 admin
 login
@@ -95,7 +88,6 @@ config
 ```
 
 **proxies.txt**:
-
 ```
 http://127.0.0.1:8080
 https://192.168.1.100:3128
@@ -107,8 +99,8 @@ socks5://198.12.34.56:9050
 
 ## 📊 **Output**
 
-* **Console**: Real-time results with color-coded status (✅ green = success, ❌ red = errors, ⚠️ magenta = sensitive).
-* **File**: Results saved as `geperx_results_YYYYMMDD_HHMMSS.json`.
+- **Console**: Real-time results with color-coded status (✅ green = success, ❌ red = errors, ⚠️ magenta = sensitive).
+- **File**: Results saved as `geperx_results_YYYYMMDD_HHMMSS.json`.
 
 ```json
 [
@@ -129,32 +121,29 @@ GeperX is intended for authorized security testing and bug bounty programs. Unau
 
 ## 🌟 **Contributing**
 
-* Fork the repository.
-* Create a feature branch:
-
+- Fork the repository.
+- Create a feature branch:
   ```bash
   git checkout -b feature/awesome-feature
   ```
-* Commit your changes:
-
+- Commit your changes:
   ```bash
   git commit -m 'Add awesome feature'
   ```
-* Push to the branch:
-
+- Push to the branch:
   ```bash
   git push origin feature/awesome-feature
   ```
-* Open a Pull Request.
+- Open a Pull Request.
 
 ---
 
 ## 📬 **Contact**
 
-* GitHub: [ishakdev325](https://github.com/ishakdev325)
-* Twitter: [@ishakxdev](https://x.com/ishakxdev)
-* Instagram: [@ishakdev](https://www.instagram.com/ishakdev/)
-* X: [@ishakxdev](https://x.com/ishakxdev)
+- GitHub: [ishakdev325](https://github.com/ishakdev325)
+- Twitter: [@ishakxdev](https://x.com/ishakxdev)
+- Instagram: [@ishakdev](https://www.instagram.com/ishakdev/)
+- X: [@ishakxdev](https://x.com/ishakxdev)
 
 ---
 
@@ -162,7 +151,3 @@ GeperX is intended for authorized security testing and bug bounty programs. Unau
 
 GeperX is crafted with ❤️ for the cybersecurity community.
 ⭐ Star the repo if you find it useful!
-
-```
-```
-
