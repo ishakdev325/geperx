@@ -1,4 +1,4 @@
-```markdown
+````markdown
 # 🌐 **GeperX - Elite Path Scanner**
 
 **GeperX** is a next-generation cybersecurity tool designed for lightning-fast and intelligent path enumeration. Built with precision, it empowers security researchers to uncover hidden endpoints with unmatched efficiency. Featuring smart proxy rotation, advanced content analysis, and seamless fallback modes, GeperX is your ultimate weapon for penetration testing and bug bounty hunting.
@@ -24,7 +24,7 @@
    ```bash
    git clone https://github.com/ishakdev325/geperx.git
    cd geperx
-```
+   ```
 
 2. **Install Dependencies**:
 
@@ -163,5 +163,5 @@ GeperX is intended for authorized security testing and bug bounty programs. Unau
 GeperX is crafted with ❤️ for the cybersecurity community.
 ⭐ Star the repo if you find it useful!
 
-```
+````
 ```
