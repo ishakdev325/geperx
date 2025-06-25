@@ -24,7 +24,7 @@
    ```bash
    git clone https://github.com/ishakdev325/geperx.git
    cd geperx
-   ```
+````
 
 2. **Install Dependencies**:
 
@@ -163,4 +163,6 @@ GeperX is intended for authorized security testing and bug bounty programs. Unau
 GeperX is crafted with ❤️ for the cybersecurity community.
 ⭐ Star the repo if you find it useful!
 
-````
+```
+```
+
