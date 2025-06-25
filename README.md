@@ -24,7 +24,7 @@
    ```bash
    git clone https://github.com/ishakdev325/geperx.git
    cd geperx
-````
+```
 
 2. **Install Dependencies**:
 
